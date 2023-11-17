@@ -1,5 +1,5 @@
 # MyCodeSnippets
-These are my various scrpits which i made for myself.
+These are my various scrpits which I made for myself.
 
 PS (PowerShell)
 - **TerminateByPort.ps1** <br>
