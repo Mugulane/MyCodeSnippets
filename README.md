@@ -18,4 +18,3 @@ To execute the script by typing its filename along with any necessary parameters
 ```cmdline
 .\TerminateProcessByPort.ps1 8080
 ```
-Make sure that you are in 
