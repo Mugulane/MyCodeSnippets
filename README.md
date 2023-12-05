@@ -63,4 +63,8 @@ The pmd-rules.xml file contains rule-sets used by PMD, another static code analy
 **Design & Complexity**
   - Addresses design principles and complexity metrics such as cyclomatic and cognitive complexities.
   - Identifies issues related to class immutability, exception handling, method count, and more.
- 
+
+---
+## Python
+
+_Some stuff is coming up. Soon. Maybe. Stay tuned!_
