@@ -1,6 +1,6 @@
 # MyCodeSnippets
 
-These are my various scrpits which I made for myself.
+These are my various scripts which I made for myself.
 
 ## PS (PowerShell)
 
@@ -24,6 +24,7 @@ To execute the script by typing its filename along with any necessary parameters
 ---
 ## Java
 ### Checkstyle Configuration (checkstyle.xml)
+###### An Intellij CheckStyle plugin config file
 
 The checkstyle.xml file contains configurations and rules used by Checkstyle, a static analysis tool for checking code against coding standards. It includes rules inspired by various sources such as the Java Language Specification, Sun Code Conventions, Javadoc guidelines, JDK API documentation, and best practices.
 
@@ -48,8 +49,9 @@ The checkstyle.xml file contains configurations and rules used by Checkstyle, a 
   - Focuses on class design, array type style, TODO comments, and other miscellaneous checks.
 ---
 ### PMD Ruleset (pmd-rules.xml)
+###### An Intellij PMD plugin config file
 
-The pmd-rules.xml file contains rulesets used by PMD, another static code analysis tool, to identify and report on potential issues in Java code.
+The pmd-rules.xml file contains rule-sets used by PMD, another static code analysis tool, to identify and report on potential issues in Java code.
 
 **Java Code Style**
   - Refines code style conventions by excluding certain rules regarding variable lengths, method arguments, constructors, etc.
