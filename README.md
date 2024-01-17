@@ -22,6 +22,28 @@ To execute the script by typing its filename along with any necessary parameters
 .\TerminateProcessByPort.ps1 8080
 ```
 ---
+### Set-LocalUserPassword.ps1
+
+This script securely sets a new password for a local user account using PowerShell. It prompts the user to enter a new password and username, and then uses the Set-LocalUser cmdlet to update the specified local user's password.
+
+Open PowerShell:
+Press Win + X on your keyboard.
+Choose "Windows PowerShell" or "PowerShell" from the menu that appears (depending on your Windows version).
+
+Navigate to the Directory Containing the Script:
+Use the cd command (Change Directory) to navigate to the folder where TerminateProcessByPort.ps1 is located. For example:
+```cmdline
+cd C:\Path\To\Script\Directory
+```
+To execute the script by typing its filename. For example:
+```cmdline
+.\Set-LocalUserPassword.ps1
+```
+Follow the prompts to enter a new password and username when prompted.
+
+Ensure you follow security best practices when handling passwords, and use this script responsibly.
+
+---
 ## Java
 ### Checkstyle Configuration (checkstyle.xml)
 ###### An Intellij CheckStyle plugin config file
