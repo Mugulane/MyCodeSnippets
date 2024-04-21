@@ -11,16 +11,20 @@ function parseInitialDateTime() {
     }
 
     const splittedText = timeText.textContent.split(" ");
-    initialDate = splittedText[0];
-
+    const date = splittedText[0];
     const time = splittedText[1];
 
     const timeParts = time.split(":");
+    const dateParts = date.split(".");
 
     const seconds = parseInt(timeParts[2], 10);
     const minutes = parseInt(timeParts[1], 10);
     const hour = parseInt(timeParts[0], 10);
+    const day = parseInt(dateParts[0], 10);
+    const month = parseInt(dateParts[1], 10) - 1; // JS kuud algavad 0-st
+    const year = parseInt(dateParts[2], 10);
 
+    initialDate = date;
     initialTime = new Date(year, month, day, hour, minutes, seconds);
 
     if (isNaN(initialTime.getTime())) {
